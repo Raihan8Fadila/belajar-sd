@@ -1,0 +1,4 @@
+# Folder gambar: hanya berkas gambar yang boleh diakses; skrip PHP tidak boleh dijalankan.
+<FilesMatch "\.(php|phtml|php3|php4|php5|php7|phps|phar|cgi|pl)$">
+  Require all denied
+</FilesMatch>
